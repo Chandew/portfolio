@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Romanesco&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Source+Code+Pro:wght@200&display=swap');*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: rgb(209, 200, 200);
+    /* width: 434px; */
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+    position: absolute;
+}
+.sidebar nav{
+    padding: 50px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 30px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    /*background-color: yellow; */
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
+.infoContainer{
+    justify-content: space-around;
+    /* background-color: rgb(45, 212, 115); */
+    height: 80vh;
+    width: 80vw;
+    margin: 80px auto;
+    display: flex;
+    padding: 50px;
+}
+.devInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 16px;
+}
+.devPic img{
+    width: 40vw;
+    height: 80vh;
+}
+.hello{
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Source Code Pro', monospace;
+}
+.name{
+    font-size: 3em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+.about{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 2.5em;
+}
+.moreabout{
+    font-size: 3em;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+buttons{
+    margin-top: 34px;
+}
+.btn{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
+    color: white;
+    padding: 9px 14px;
+    border-radius: 20px;
+    background-color: dodgerblue;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.btn-sm{
+    font-size: 10px;
+    padding: 7px 13px;
+    margin: 10px 0;
+}
+.btn:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+.contactform{
+    padding: 0 34px;
+    /* padding-top: 144px; */
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 100px;
+    
+}
+.contactform h1{
+    /*text-align: center;*/
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding: 12px 0;
+}
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    /* width: 26vw; */
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+.contactform form{
+    margin: 0 40px;
+}
+#emailHelp{
+    font-size: 13px;
+    color: midnightblue;
+    font-weight: bold;
+    margin: 0 5px;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 20px;
+    margin-top: 8px;
+}
+.blogItem{
+    margin: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+.blogcontainer h1{
+    font-family: 'Roboto', sans-serif;
+    margin: 23px;
+}
+.blogItem p{
+    font-family: 'Source Code Pro', monospace;
+}
+.introInfo{
+    margin: 0 300px;
+}
+.introInfo h1{
+    text-align: center;
+    margin: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+.introInfo p{
+    margin: 30px;
+    font-family: 'Source Code Pro', monospace;
+}
+.introInfo h2{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.skillcontainer{
+    padding: 23px;
+}
+.skill{
+    width: 265px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid black;
+}
+.skillItem{
+    display: flex;
+    align-items: center;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+}
+.hundred{
+    width: 265px;
+    background-color: blueviolet;
+}
+.s75{
+    width: 200px;
+    background-color: skyblue;
+}
+.fifty{
+    width: 125px;
+    background-color: aqua;
+}
+.t5{
+    width: 75px;
+    background-color: yellow;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cross{
+    margin-left: 124px;
+}
+.sidebarGo{
+    transform: translate(-443px, 0);
+    position: absolute;
+}
+@media (max-width: 1720px){
+    /* *{
+        /* background-color: red; */
+    } */
+    /* .sidebar{
+        transform: translate(-443px, 0px);
+        position: absolute;
+    } */
+    .devPic{
+        display: none;
+    } 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
